@@ -2,24 +2,20 @@
 This repository houses a set of exercises completed as part of a university course on Big Data processing, leveraging Apache Spark, a robust unified analytics engine for large-scale data processing. The exercises encompass various data operations, including DataFrame and RDD transformations, Spark SQL queries, and graph processing.
 
 ## Project Overview
-<ul>
-  <li><strong>Exercise 1:</strong> A simple Spark job illustrating how to read data, execute basic transformations, and write data.</li> 
+- **Exercise 1:** A simple Spark job illustrating how to read data, execute basic transformations, and write data.
+- **Exercise 2:** A Spark job that ingests a dataset of airline tweets, analyzing the text of tweets to find the most commonly used words within each sentiment category. It also identifies the primary cause of complaints per airline.
+- **Exercise 3:** A Spark job that loads a dataset of movies and carries out operations such as grouping by genre, counting movies per year, and identifying words with specific occurrences in movie titles.
+- **Exercise 4:** A Spark job that reads a dataset of web links and performs graph processing to identify vertices with the most incoming and outgoing edges. It also computes the average degree of vertices and counts those with degrees surpassing the average.
 
-  <li><strong>Exercise 2:</strong> A Spark job that ingests a dataset of airline tweets, analyzing the text of tweets to find the most commonly used words within each sentiment category. It also identifies the primary cause   of complaints per airline.</li> 
-
-  <li><strong>Exercise 3:</strong> A Spark job that loads a dataset of movies and carries out operations such as grouping by genre, counting movies per year, and identifying words with specific occurrences in movie titles.   </li> 
-
-  <li><strong>Exercise 4:</strong> A Spark job that reads a dataset of web links and performs graph processing to identify vertices with the most incoming and outgoing edges. It also computes the average degree of vertices    and counts those with degrees surpassing the average.</li> 
-</ul>
 
 ## Development Environment
 This project was developed using IntelliJ IDEA, a popular Integrated Development Environment (IDE) for Scala and Java development.
 
 The following are the specifics of the development environment:
+- **IDE:** IntelliJ IDEA
+- **Language Level:** JDK default (8 - Lambdas, type annotations etc.)
+- **SDK:** Azul-1.8 (Azul Zulu version 1.8.0_372)
 
-IDE: IntelliJ IDEA
-Language Level: JDK default (8 - Lambdas, type annotations etc.)
-SDK: Azul-1.8 (Azul Zulu version 1.8.0_372)
 These settings were selected to ensure compatibility and performance. Please ensure your environment meets these requirements if you wish to clone or download and run this project.
 
 Azul Zulu is a certified build of OpenJDK and complies with the Java SE standard for Java 8, 11, and 13. It is the result of rigorous testing and is compliant with all the test suites that Oracle and the OpenJDK community use to test and verify the JDK builds. In this project, we have used Azul Zulu version 1.8.0_372.
@@ -38,7 +34,7 @@ Due to the large size of these datasets, they may not be directly viewable withi
 
 Remember that when working with big data, the size of datasets can be a challenge in terms of storage and processing, and this project is an example of handling such datasets with Apache Spark.
 ## Dependencies
-Apache Spark
-Scala
+- **Apache Spark** 3.1.1
+- **Scala** 2.12.13
 
 <em>This repository is publicly available for educational purposes. The exercises present an overview of the capabilities and functionalities of Apache Spark.</em>
