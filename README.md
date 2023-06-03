@@ -15,6 +15,14 @@ This repository houses a set of exercises completed as part of a university cour
 ## Running the Project
 To execute this project, Spark must be installed and configured on your system. You can then clone this repository and run the code locally.
 
+## Resources
+The resources directory of this project contains the datasets (csv and txt files) used for processing tasks in this Apache Spark project. These datasets are essential for executing and validating the code's functionality.
+
+If you wish to use your own data, you can do so by modifying the <strong>fileName</strong> variable in the code to match the relative path of your chosen file.
+
+Due to the large size of these datasets, they may not be directly viewable within the GitHub repository. Although they are included for completeness and to facilitate running the Spark jobs, you may need to download or clone the repository to your local machine to fully access and utilize these datasets.
+
+Remember that when working with big data, the size of datasets can be a challenge in terms of storage and processing, and this project is an example of handling such datasets with Apache Spark.
 ## Dependencies
 Apache Spark
 Scala
