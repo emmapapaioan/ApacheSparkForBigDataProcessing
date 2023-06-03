@@ -1,4 +1,4 @@
-# Big Data Processing with Apache Spark
+# Big Data Processing using Apache Spark
 This repository houses a set of exercises completed as part of a university course on Big Data processing, leveraging Apache Spark, a robust unified analytics engine for large-scale data processing. The exercises encompass various data operations, including DataFrame and RDD transformations, Spark SQL queries, and graph processing.
 
 ## Project Overview
