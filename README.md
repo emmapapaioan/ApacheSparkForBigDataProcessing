@@ -12,6 +12,20 @@ This repository houses a set of exercises completed as part of a university cour
   <li><strong>Exercise 4:</strong> A Spark job that reads a dataset of web links and performs graph processing to identify vertices with the most incoming and outgoing edges. It also computes the average degree of vertices    and counts those with degrees surpassing the average.</li> 
 </ul>
 
+## Development Environment
+This project was developed using IntelliJ IDEA, a popular Integrated Development Environment (IDE) for Scala and Java development.
+
+The following are the specifics of the development environment:
+
+IDE: IntelliJ IDEA
+Language Level: JDK default (8 - Lambdas, type annotations etc.)
+SDK: Azul-1.8 (Azul Zulu version 1.8.0_372)
+These settings were selected to ensure compatibility and performance. Please ensure your environment meets these requirements if you wish to clone or download and run this project.
+
+Azul Zulu is a certified build of OpenJDK and complies with the Java SE standard for Java 8, 11, and 13. It is the result of rigorous testing and is compliant with all the test suites that Oracle and the OpenJDK community use to test and verify the JDK builds. In this project, we have used Azul Zulu version 1.8.0_372.
+
+If you are using a different setup or newer versions, please make sure to adjust your environment accordingly.
+
 ## Running the Project
 To execute this project, Spark must be installed and configured on your system. You can then clone this repository and run the code locally.
 
