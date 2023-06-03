@@ -1,0 +1,9 @@
+# .gitignore
+target/
+project/target/
+project/project/
+.idea/
+.bsp/
+spark-warehouse/
+null/
+*.log
