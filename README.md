@@ -41,8 +41,9 @@ If you wish to use your own data, you can do so by modifying the <strong>fileNam
 Due to the large size of these datasets, they may not be directly viewable within the GitHub repository. Although they are included for completeness and to facilitate running the Spark jobs, you may need to download or clone the repository to your local machine to fully access and utilize these datasets.
 
 Remember that when working with big data, the size of datasets can be a challenge in terms of storage and processing, and this project is an example of handling such datasets with Apache Spark.
+
 ## Dependencies
 - **Apache Spark** 3.1.1
 - **Scala** 2.12.13
 
-<em>This repository is publicly available for educational purposes. The exercises present an overview of the capabilities and functionalities of Apache Spark.</em>
+*This repository is publicly available for educational purposes. The exercises present an overview of the capabilities and functionalities of Apache Spark.*
