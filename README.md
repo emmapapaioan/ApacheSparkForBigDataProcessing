@@ -18,7 +18,7 @@ The following are the specifics of the development environment:
 
 These settings were selected to ensure compatibility and performance. Please ensure your environment meets these requirements if you wish to clone or download and run this project.
 
-Azul Zulu is a certified build of OpenJDK and complies with the Java SE standard for Java 8, 11, and 13. It is the result of rigorous testing and is compliant with all the test suites that Oracle and the OpenJDK community use to test and verify the JDK builds. In this project, we have used Azul Zulu version 1.8.0_372.
+Azul Zulu is a certified build of OpenJDK and complies with the Java SE standard for Java 8, 11, and 13. It is the result of rigorous testing and is compliant with all the test suites that Oracle and the OpenJDK community use to test and verify the JDK builds. In this project, Ι have used Azul Zulu version 1.8.0_372.
 
 If you are using a different setup or newer versions, please make sure to adjust your environment accordingly.
 
