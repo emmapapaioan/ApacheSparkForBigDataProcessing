@@ -23,7 +23,15 @@ Azul Zulu is a certified build of OpenJDK and complies with the Java SE standard
 If you are using a different setup or newer versions, please make sure to adjust your environment accordingly.
 
 ## Running the Project
-To execute this project, Spark must be installed and configured on your system. You can then clone this repository and run the code locally.
+To execute this project, you'll need to have the following installed on your system:
+
+- **IntelliJ IDEA:** This IDE is used for development. You can download it from the [official JetBrains website](https://www.jetbrains.com/idea/download/).
+
+- **Scala plugin for IntelliJ:** This can be installed from within IntelliJ IDEA itself. Instructions for doing so can be found on the [official JetBrains website](https://www.jetbrains.com/help/idea/discover-intellij-idea-for-scala.html).
+
+After these prerequisites are installed, you can clone this repository to your local system. Then, open the project in IntelliJ, and sbt (handled automatically by IntelliJ) will manage dependencies and run the project. It will automatically download the necessary dependencies, including Apache Spark.
+
+Note: This project has been configured to use Apache Spark as a library, so you do not need to install Spark separately on your system.
 
 ## Resources
 The resources directory of this project contains the datasets (csv and txt files) used for processing tasks in this Apache Spark project. These datasets are essential for executing and validating the code's functionality.
